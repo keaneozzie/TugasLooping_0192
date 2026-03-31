@@ -31,6 +31,17 @@ void inputAngka() {
     cout << "Masukkan angka yang ingin dicek: ";
     cin >> n;
 }
+
+void tampilkanMenu() {
+    cout << "\n===============================" << endl;
+    cout << "   PROGRAM PENGECEK BILANGAN   " << endl;
+    cout << "===============================" << endl;
+    cout << "1. Cek Bilangan Prima" << endl;
+    cout << "2. Cek Bilangan Fibonacci" << endl;
+    cout << "0. Keluar" << endl;
+    cout << "Pilih menu (0-2): ";
+    cin >> pilihan;
+}
     
 
 
