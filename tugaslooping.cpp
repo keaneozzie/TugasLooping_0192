@@ -7,6 +7,7 @@ int pilihan;
 
 bool isPrima(int angka) {
     if (angka <= 1) return false;
+    int i = 2;
     
     
 
