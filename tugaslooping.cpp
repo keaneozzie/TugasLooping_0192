@@ -60,5 +60,6 @@ void hasilFibonacci() {
 }
 
 int main() {
+    bool berjalan = true;
 
 
