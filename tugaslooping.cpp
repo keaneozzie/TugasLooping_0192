@@ -14,6 +14,8 @@ bool isPrima(int angka) {
     }
     return true;
 }
+
+bool isFibonacci(int angka) {
     
 
 
