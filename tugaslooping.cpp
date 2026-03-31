@@ -61,5 +61,7 @@ void hasilFibonacci() {
 
 int main() {
     bool berjalan = true;
+    while (berjalan) {
+        tampilkanMenu();
 
 
