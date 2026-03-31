@@ -51,4 +51,12 @@ void hasilPrima() {
     }
 }
 
+void hasilFibonacci() {
+    if (isFibonacci(n)) {
+        cout << "Hasil: " << n << " adalah bagian dari deret FIBONACCI." << endl;
+    } else {
+        cout << "Hasil: " << n << " BUKAN bagian dari deret FIBONACCI." << endl;
+    }
+}
+
 
