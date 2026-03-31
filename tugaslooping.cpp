@@ -16,6 +16,10 @@ bool isPrima(int angka) {
 }
 
 bool isFibonacci(int angka) {
+    if (angka < 0) return false;
+    int a = 0;
+    int b = 1;
+    
     
 
 
