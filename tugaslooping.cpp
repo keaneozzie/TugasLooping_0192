@@ -19,7 +19,13 @@ bool isFibonacci(int angka) {
     if (angka < 0) return false;
     int a = 0;
     int b = 1;
-    
+    while (a < angka) {
+        int temp = a + b;
+        a = b;
+        b = temp;
+    }
+    return (a == angka);
+}
     
 
 
