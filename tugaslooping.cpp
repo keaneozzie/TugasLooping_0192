@@ -61,7 +61,22 @@ void hasilFibonacci() {
 
 int main() {
     bool berjalan = true;
+    
     while (berjalan) {
         tampilkanMenu();
+
+        switch (pilihan) {
+            case 1:
+                inputAngka();
+                hasilPrima();
+                break;
+            case 2:
+                inputAngka();
+                hasilFibonacci();
+                break;
+            case 0:
+                cout << "Terima kasih! Program selesai." << endl;
+                berjalan = false;
+                break;
 
 
