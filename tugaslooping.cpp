@@ -42,6 +42,13 @@ void tampilkanMenu() {
     cout << "Pilih menu (0-2): ";
     cin >> pilihan;
 }
-    
+
+void hasilPrima() {
+    if (isPrima(n)) {
+        cout << "Hasil: " << n << " adalah bilangan PRIMA." << endl;
+    } else {
+        cout << "Hasil: " << n << " BUKAN bilangan PRIMA." << endl;
+    }
+}
 
 
